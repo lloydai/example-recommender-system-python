@@ -1,32 +1,3 @@
-# List of Recommender Systems
-
-Recommender systems (or recommendation engines) are useful and interesting pieces of software. I wanted to compare recommender systems to each other but could not find a decent list, so here is the one I created. Please help me keep this post up-to-date by submitting corrections and additions via pull-request, or tweet me [@grahamjenson](https://twitter.com/grahamjenson).
-
-## Software as a Service Recommender Systems
-
-SaaS Recommender systems have many challenges to their development including having to handle multi-tenancy, store and process a massive amount of data and other softer concerns like keeping a clients sensitive data safe on remote servers.
-
-The benefits to using a SaaS recommender system is that you can pay for value with a low overhead rather than having a large upfront investment, they generally have a clear integration path for you to use, and they provide continual development and improvement while you use it.
-
-The SaaS recommender systems are:
-
-1. [SuggestGrid](http://www.suggestgrid.com/) which is the successor of [Rcmmndr](https://devcenter.heroku.com/articles/rcmmndr). SuggestGrid is a generic recommendation system. It is based on **Apache Spark** but has many improvements over it.
-1. [Peerius](http://www.peerius.com/) closed, product and e-commerce focused for live and email recommendations. Active and seems very interesting, although little information about the actual product and how it works is available.
-1. [Strands](http://recommender.strands.com/) is a closed, product and e-commerce focused system. I think it works by including tracking scripts (a la Google Analytics) on the website, and recommendations widgets. What I really like about Strands is their publishing of case-studies e.g. [Wireless Emporium](http://retail.strands.com/customers/wireless-emporium-case-study/) and white papers like [The Big promise of recommender systems](http://www.aaai.org/ojs/index.php/aimagazine/article/viewFile/2360/2232). Although these do not discuss the exact solutions provided, they give a good overview of their vision and goals of providing recommendations.
-1. [SLI Systems Recommender](http://www.sli-systems.com/) A closed recommender system focused on e-commerce, search and mobile.
-1. [Google Cloud Prediction API](https://cloud.google.com/prediction/docs) Googles offering of cloud computed prediction API
-1. [Using Hadoop on Google Cloud](http://googlecloudplatform.blogspot.co.nz/2014/01/performance-advantages-of-the-new-google-cloud-storage-connector-for-hadoop.html) an example use of Google cloud with benchmarks from recommender system.
-1. [ParallelDots](http://www.paralleldots.com/) tool to relate published content
-1. [Amazon Machine Learning](http://aws.amazon.com/machine-learning/) machine learning platform to model data and create predictions
-1. [Azure ML](http://azure.microsoft.com/en-us/services/machine-learning/) machine learning platform to model data and create predictions
-1. [Gravity R&D](http://www.gravityrd.com/) is a company built by some of the winners from the 2009 Netflix prize. They offer a solution that provides targeted, customized recommendations to users of websites. They have some pretty big clients including [DailyMotion](http://www.gravityrd.com/projects#block-views-block-key-partners-key-partners) and a [technology page](http://www.gravityrd.com/technology) which describes their architecture, algorithms, and a list of publications. (suggested by [Marton Vetes](https://www.linkedin.com/in/martonvertes))
-1. [Dressipi Style Adviser](https://dressipi.com) is a clothing-specific recommendation service. It incorporates both expert domain knowledge and machine learning to find outfits for occasions or moods.
-1. [Sajari](https://www.sajari.com/recommend) is a search, recommendation and matching (e.g. dating website) service. On their site, they also have aggregated a bunch of useful [data-sets](https://www.sajari.com/public-data).
-1. [IBM Watson](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/) is available through Watson Developer Cloud, which provides REST APIs ([Watson APIs on Bluemix](http://www.ibm.com/cloud-computing/bluemix/watson/)) and SDKs that use cognitive computing to solve complex problems.
-1. [Recombee](https://www.recombee.com/) provides REST API, SDKs for multiple languages and graphical user interface for evaluating results. Main features are real time model updates, easy to use query language for filtering and boosting according to complex business rules and advanced features such as options for getting diverse or rotated recommendations. Recombee offers instant account with 100k free recommendation requests per month.
-1. [Segmentify](https://www.segmentify.com/) Recommendation Engine, Personalization and Real-Time Analytics tool.
-1. [Mr. DLib](http://mr-dlib.org) A recommender-system as-a-service for academic organisations such as digital libraries and reference managers. Mr. DLib provides 'related-article' recommendations, is open-source, and publishes most of it's [data](http://data.mr-dlib.org).
-
 ## Open Source Recommender Systems
 
 Most of the non-SaaS recommender systems that are open-source. This may have been because recommender systems are more tailored to clients so not easily made into a product.
@@ -53,12 +24,6 @@ The open-source recommender systems are:
 1. [Spotlight](https://github.com/maciejkula/spotlight) utilizes factorization model and sequence model in the back end for building a basic recommendation system. It's a well-implemented Python framework.
 1. [recommenderlab](https://cran.r-project.org/web/packages/recommenderlab/index.html) provides a research infrastructure to test and develop recommender algorithms including UBCF, IBCF, FunkSVD and association rule-based algorithms.
 1. [CaseRecommender](https://github.com/caserec/CaseRecommender) is a Python implementation of a number of popular recommendation algorithms. The framework aims to provide a rich set of components from which you can construct a customized recommender system from a set of algorithms.
-
-## Non-SaaS Product Recommender Systems
-
-Not very many Non-SaaS Non-OpenSource recommender systems seem to exist. Below is a list:
-
-1. [Dato](http://dato.com/) is a company that provides a python package and servers for business machine learning including many predictive algorithms for recommendations. They also integrate with [Apache Spark](http://blog.dato.com/using-apache-spark-with-graphlab-create) and have great blog posts like **[Why is building custom recommender systems hard? Does it have to be?](http://blog.dato.com/why-is-building-custom-recommender-systems-hard-does-it-have-to-be)**. Their customers include Pandora and StumbleUpon, must be a good product.
 
 ## Academic Recommender Systems
 
