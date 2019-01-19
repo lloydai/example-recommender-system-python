@@ -25,19 +25,6 @@ The open-source recommender systems are:
 1. [recommenderlab](https://cran.r-project.org/web/packages/recommenderlab/index.html) provides a research infrastructure to test and develop recommender algorithms including UBCF, IBCF, FunkSVD and association rule-based algorithms.
 1. [CaseRecommender](https://github.com/caserec/CaseRecommender) is a Python implementation of a number of popular recommendation algorithms. The framework aims to provide a rich set of components from which you can construct a customized recommender system from a set of algorithms.
 
-## Academic Recommender Systems
-
-Recommender systems are a very active area of research in academia, though few of the generated systems make it out of the lab. Here are a few I have found that did:
-
-1. [Duine Framework](http://sourceforge.net/projects/duine/) a Java based recommendation system that has been abandoned
-1. [MyMediaLite](https://github.com/zenogantner/MyMediaLite) C# based in-memory recommender system that has been abandoned
-1. **Bonus:** [List of Recommender System Dissertations](http://www.recsyswiki.com/wiki/List_of_recommender_system_dissertations), a useful list to keep up with the current state of recommendations systems in academia
-1. [LibRec](http://www.librec.net/) A Java based Recommendations engine with loads of implemented algorithms (suggested by [Saúl Vargas](http://www.dcs.gla.ac.uk/~saul/))
-1. [RankSys](https://github.com/RankSys/RankSys) Java Recommendation system for novelty and diversity created by [Saúl Vargas](http://www.dcs.gla.ac.uk/~saul/))
-1. [LIBMF](https://www.csie.ntu.edu.tw/~cjlin/libmf/) A Matrix-factorization Library for Recommender Systems
-1. [proNet-core](https://github.com/cnclabs/proNet-core) A general-purpose network embedding framework which provides several factorization-based models for recommender systems
-1. [Devooght](https://github.com/rdevooght/sequence-based-recommendations) A repository containing collaborative-filtering algorithms based on sequences. 
-
 ## Benchmarking Recommender Systems
 
 It is very difficult to benchmark recommender systems, not only because getting good datasets is hard, but different methods and algorithms have different advantages and disadvantages that are difficult to expose.
@@ -64,7 +51,8 @@ In addition to generic recommender systems, I decided to add a list of applicati
 1. [NewsPortalUserInteractions](https://www.kaggle.com/gspmoreira/news-portal-user-interactions-by-globocom) A large dataset provided by [globo.com](https://www.globo.com) for news recommendation *suggested by [guedes-joaofelipe](https://github.com/guedes-joaofelipe)*
 1. [ContentWise](https://www.contentwise.tv/) UX management solution for digital media entertainment. *suggested by [GiovanniPaoloGibilisco](https://github.com/GiovanniPaoloGibilisco)*
 
-## Books
+## Books and Class
 
-1. [Practical Recommender Systems](https://www.manning.com/books/practical-recommender-systems) by Kim Falk (Manning Publications). [Chapter 1](https://manning-content.s3.amazonaws.com/download/d/fd45240-cdac-4a2a-bf01-392a34242a37/Falk_PRS_MEAP_V12_ch1.pdf)
-1. [Recommender Systems Handbook](https://dl.acm.org/citation.cfm?id=1941884) by Ricci, F. et al.
+1. https://www.amazon.com/Practical-Recommender-Systems-Kim-Falk/dp/1617292702/ref=sr_1_1?ie=UTF8&qid=1547871294&sr=8-1&keywords=Practical+Recommender+Systems
+
+Lloyd's fav class https://www.udemy.com/building-recommender-systems-with-machine-learning-and-ai/
